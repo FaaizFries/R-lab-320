@@ -1,0 +1,46 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://global.discourse-cdn.com/standard14/uploads/thimbleweedpark/original/2X/a/a89e00135aa6dfe2fb9d803c8ff10e678e7ac2cc.png'); 
+  background-size: cover;
+}
+
+.container {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  width: 300px; 
+  background-image: url('https://st2.depositphotos.com/4397825/10616/i/450/depositphotos_106161890-stock-photo-crumpled-brown-paper-background.jpg'); 
+  background-size: cover;
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.display-todo {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
